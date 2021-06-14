@@ -2,6 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+/** fonts **/
+h2 {
+  font-family: "Staatliches";
+  font-size: 3.5rem;
+
+  color: rgb(60, 52, 102);
+  text-shadow: 2px 2px 0px rgb(226, 124, 55);
+}
+
+h3 {
+  font-family: "roboto";
+  font-size: 1.2rem;
+  line-height: 1rem;
+}
+
+/** room svg **/
 #room_projects:hover {
   cursor: pointer;
   transition: 0.5s;
@@ -18,4 +34,38 @@
   cursor: pointer;
   transition: 0.5s;
   transform: translate(5px, 5px);
+}
+
+/** other **/
+.disclosure {
+  border-radius: 4px;
+  background-color: rgb(236, 236, 236);
+  box-shadow: 2px 2px 0px rgb(226, 124, 55);
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0.5rem;
+}
+
+.grid {
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.link:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  transform: translateY(-2px);
+}
+
+.go_to_page:hover {
+  transition: 0.25s;
+  transform: translate(5px, -5px);
+  box-shadow: -5px 5px 0px rgb(226, 124, 55);
+  cursor: pointer;
 }
