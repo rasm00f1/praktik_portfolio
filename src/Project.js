@@ -3,7 +3,7 @@ import { ReactComponent as Arrow } from "./arrow.svg";
 
 export default function Project(props) {
   return (
-    <article style={{ boxShadow: "5px 5px 10px #bebebe,-5px -5px 10px #ffffff", borderRadius: "5px", minWidth: "350px" }}>
+    <article style={{ backgroundColor: "white", boxShadow: "5px 5px 10px #bebebe,-5px -5px 10px #ffffff", borderRadius: "5px", minWidth: "350px" }}>
       {props.isFetched === true ? (
         <div>
           <a target="blank_" href={props.link}>

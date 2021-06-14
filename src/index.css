@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-color: rgb(245, 245, 245);
+  margin: 0px 5px;
+}
+
 /** fonts **/
 h2 {
   font-family: "Staatliches";

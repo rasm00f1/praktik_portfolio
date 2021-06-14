@@ -63,7 +63,7 @@ function App() {
           </a>
         </nav>
         <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "center", gap: "25px" }}>
-          <article style={{ boxShadow: "5px 5px 10px #bebebe,-5px -5px 10px #ffffff", borderRadius: "5px", maxWidth: "500px" }}>
+          <article style={{ backgroundColor: "white", boxShadow: "5px 5px 10px #bebebe,-5px -5px 10px #ffffff", borderRadius: "5px", maxWidth: "500px" }}>
             <div className="go_to_page" style={{ overflowY: "hidden", maxWidth: "500px" }}>
               <img style={{ borderRadius: "5px 5px 0px 0px", objectFit: "cover" }} src="./img/self_portrait.jpg" alt="selfportrait" />
             </div>
@@ -74,7 +74,19 @@ function App() {
               <p style={{ fontSize: "1.5rem" }}>Quick learner.</p>
             </div>
           </article>
-          <article id="contact" style={{ display: "flex", margin: "1rem", alignItems: "center", backgroundColor: "rgb(60, 52, 102)", padding: "2rem", boxShadow: "5px 5px 10px #bebebe,-5px -5px 10px #ffffff", borderRadius: "5px", maxWidth: "500px" }}>
+          <article
+            id="contact"
+            style={{
+              display: "flex",
+              margin: "1rem",
+              alignItems: "center",
+              backgroundColor: "rgb(60, 52, 102)",
+              padding: "2rem",
+              boxShadow: "5px 5px 10px #bebebe,-5px -5px 10px #ffffff",
+              borderRadius: "5px",
+              maxWidth: "500px",
+            }}
+          >
             <div>
               <h2 style={{ color: "orange" }}>contact info</h2>
               <p style={{ color: "white", fontSize: "1.5rem" }}>+45 21 60 28 50</p>
