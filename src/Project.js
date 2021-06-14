@@ -7,7 +7,7 @@ export default function Project(props) {
       {props.isFetched === true ? (
         <div>
           <a target="blank_" href={props.link}>
-            <div className="go_to_page" style={{ overflowY: "hidden", height: "250px" }}>
+            <div className="go_to_page" style={{ overflowY: "hidden", maxWidth: "500px" }}>
               <img style={{ borderRadius: "5px 5px 0px 0px", objectFit: "cover" }} src={"/img/" + props.img + ".png"} alt={props.img} />
             </div>
           </a>
