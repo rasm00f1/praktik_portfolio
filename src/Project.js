@@ -33,8 +33,11 @@ export default function Project(props) {
                   leaveFrom="transform scale-100 opacity-100"
                   leaveTo="transform scale-95 opacity-0"
                 >
-                  <Disclosure.Panel style={{ paddingLeft: "1rem", paddingBottom: "1rem", width: "350px" }}>
-                    <p>{props.desc}</p>
+                  <Disclosure.Panel style={{ padding: "1rem", maxWidth: "500px" }}>
+                    <p style={{ paddingBottom: "10px" }}>{props.desc}</p>
+                    <a target="blank_" href={props.github} style={{ color: "orange", fontSize: "1.5rem" }}>
+                      GitHub
+                    </a>
                   </Disclosure.Panel>
                 </Transition>
               </>
