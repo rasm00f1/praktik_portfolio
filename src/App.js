@@ -92,10 +92,10 @@ function App() {
               <p style={{ color: "white", fontSize: "1.5rem" }}>+45 21 60 28 50</p>
               <p style={{ color: "white", fontSize: "1.5rem" }}>rasmusharbro@hotmail.com</p>
               <a style={{ color: "orange", fontSize: "1.5rem" }} target="blank_" href="https://www.linkedin.com/in/rasmus-harbro-petersen-2b208420b/">
-                <p>linkedin</p>
+                <p>LinkedIn</p>
               </a>
               <a style={{ color: "orange", fontSize: "1.5rem" }} target="blank_" href="https://github.com/rasm00f1?tab=repositories">
-                <p>github</p>
+                <p>GitHub</p>
               </a>
             </div>
           </article>
