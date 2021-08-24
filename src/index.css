@@ -55,19 +55,31 @@ h3 {
 
 .room_floor_down {
   animation: fall_down 0.8s forwards;
-  animation-timing-function: cubic-bezier(.44,.28,.56,1.3);
+  animation-timing-function: cubic-bezier(.37,.77,.57,1.11);
 }
 
 .room_walls_down {
   animation: fall_down .8s forwards;
-  animation-timing-function: cubic-bezier(.44,.28,.56,1.3);
+  animation-timing-function: cubic-bezier(.37,.77,.57,1.11);
+  animation-delay: .5s;
+}
+
+.room_project_down {
+  animation: fall_down .8s forwards;
+  animation-timing-function: cubic-bezier(.37,.77,.57,1.11);
   animation-delay: 1s;
 }
 
-.room_rest_down {
+.room_person_down {
   animation: fall_down .8s forwards;
-  animation-timing-function: cubic-bezier(.44,.28,.56,1.3);
-  animation-delay: 1.8s;
+  animation-timing-function: cubic-bezier(.37,.77,.57,1.11);
+  animation-delay: 1.5s;
+}
+
+.room_contact_down {
+  animation: fall_down .8s forwards;
+  animation-timing-function: cubic-bezier(.37,.77,.57,1.11);
+  animation-delay: 2s;
 }
 
 @keyframes fall_down {
