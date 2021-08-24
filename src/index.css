@@ -39,16 +39,28 @@ h3 {
   transform: translateY(-10px);
 }
 
+#room_projects {
+  transition: 0.25s;
+}
+
 #room_contact:hover {
   cursor: pointer;
   transition: 0.5s;
   transform: translateY(-10px);
 }
 
+#room_contact {
+  transition: 0.25s;
+}
+
 #room_person:hover {
   cursor: pointer;
   transition: 0.5s;
   transform: translate(5px, 5px);
+}
+
+#room_person {
+  transition: 0.25s;
 }
 
 /** room animations **/
@@ -123,6 +135,10 @@ h3 {
 .go_to_page:hover {
   transition: 0.25s;
   transform: translate(5px, -5px);
-  box-shadow: -5px 5px 0px rgb(226, 124, 55);
+  box-shadow: -5px 5px 0px rgb(255, 155, 85);
   cursor: pointer;
+}
+
+.go_to_page {
+  transition: 0.1s;
 }
