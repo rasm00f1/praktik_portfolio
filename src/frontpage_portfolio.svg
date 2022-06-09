@@ -96,8 +96,8 @@
     <path d="M933.93,547.05,886.1,567.73s-7.76,3.88-5.17,9S886.1,582,886.1,582s9-1.29,9-7.75l38.78-16.81,14.75,39.91s-4.35,12.92,6.74,10.48,6.81-7,2.17-11.36c-5.09-4.74-10.73-40.32-10.73-40.32l36.2-5.18s3.88,6.47,10.35,1.3c0,0,2.58-7.76-6.47-7.76s-41.37,2.59-41.37,2.59l-7.76,2.58Z" transform="translate(-466.07 -59.29)" fill="#424242"/>
   </g>
   </a>
-  <g id="room_projects">
-  <a href="#projects" class="room_project_down">
+  <g id="room_projects"  class="room_project_down">
+  <a href="#projects">
     <polygon points="643.28 210.14 643.28 280.87 704.53 316.24 704.53 245.5 643.28 210.14" fill="#93715a" stroke="#93715a" stroke-miterlimit="10"/>
     <path d="M1128.73,388.16" transform="translate(-466.07 -59.29)" fill="none" stroke="#c6b4a8" stroke-miterlimit="10"/>
     <path d="M1128.73,388.16" transform="translate(-466.07 -59.29)" fill="none" stroke="#c6b4a8" stroke-miterlimit="10"/>
